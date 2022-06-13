@@ -7,18 +7,26 @@
 // console.log("Прошло секунд: " + counter); 
 // }, 1000);
 
-// Cоздаем переменную counter
-let counter = 0;
+// // Cоздаем переменную counter
+// let counter = 0;
 
-// Присваиваем id setInterval
-let id = setInterval(my_func, 1000);
+// // Присваиваем id setInterval
+// let id = setInterval(my_func, 1000);
 
-// Прописываем функцию
-function my_func() {
-    counter++;
-    console.log("Прошло секунд: " + counter);
+// // Прописываем функцию
+// function my_func() {
+//     counter++;
+//     console.log("Прошло секунд: " + counter);
 
-// Прописываем условия внутри функции, очищаем интервал
-    if(counter == 3)
-    clearInterval(id);
-}
+// // Прописываем условия внутри функции, очищаем интервал
+//     if(counter == 3)
+//     clearInterval(id);
+// }
+
+// Таймер
+
+setTimeout(function() {
+    console.log("Timer is working!");
+}, 2000);
+
+
