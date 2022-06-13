@@ -1,4 +1,5 @@
-// Бесконечный интервал
+// Интервал
+
 // Cоздаем переменную counter
 // let counter = 0;
 // // Создаем интервал. безымянную функцию
@@ -11,22 +12,22 @@
 // let counter = 0;
 
 // // Присваиваем id setInterval
-// let id = setInterval(my_func, 1000);
+//  let id = setInterval(my_func, 1000);
 
 // // Прописываем функцию
 // function my_func() {
-//     counter++;
-//     console.log("Прошло секунд: " + counter);
+// counter++;
+// console.log("Прошло секунд: " + counter);
 
 // // Прописываем условия внутри функции, очищаем интервал
-//     if(counter == 3)
-//     clearInterval(id);
+//    if(counter == 3)
+//    clearInterval(id);
 // }
 
 // Таймер
 
 setTimeout(function() {
-    console.log("Timer is working!");
+console.log("Timer is working!");
 }, 2000);
 
 
